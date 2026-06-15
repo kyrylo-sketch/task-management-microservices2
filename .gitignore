@@ -1,0 +1,30 @@
+.DS_Store
+.idea/
+
+# IntelliJ
+.idea/
+
+# macOS
+.DS_Store
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Secrets
+application-local.properties
+
+target/
+.idea/
+.DS_Store
+
+.env
+.env.*
+
+# Maven wrapper OK zostaje

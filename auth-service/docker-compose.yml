@@ -1,0 +1,12 @@
+services:
+  discovery-server:
+    build: ./service-registry
+    ports:
+      - "8761:8761"
+
+  auth-service:
+    build: ./auth-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - discovery-server
